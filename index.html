@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Style Seat Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Seats</h1>
+        <div class="screen">Screen This Way</div>
+        <div class="seats-section">
+            <!-- Dynamic rows of seats -->
+            <div class="row-label">A</div>
+            <div class="seats" id="rowA"></div>
+            <div class="row-label">B</div>
+            <div class="seats" id="rowB"></div>
+            <div class="row-label">C</div>
+            <div class="seats" id="rowC"></div>
+            <div class="row-label">D</div>
+            <div class="seats" id="rowD"></div>
+            <div class="row-label">E</div>
+            <div class="seats" id="rowE"></div>
+        </div>
+        <div class="selected-info">
+            <h3>Selected Seats:</h3>
+            <ul id="selectedSeatsList"></ul>
+            <h3>Total Price: ₹<span id="totalPrice">0</span></h3>
+            <button id="confirmButton">Confirm Selection</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
